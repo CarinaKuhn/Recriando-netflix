@@ -1,0 +1,73 @@
+/*raiz do projeto*/
+:root{
+    --azul-magenta:#6E3CBC;
+    --lilás:#7267CB;
+    --ciano-azul:#98BAE7;
+    --ciano:#B8E4F0;
+    --preto:#000000;
+    --roxo-escuro: #160F30;
+    --roxo-medio:#723881;
+    --cinza:#E0E0E0;
+    --branco:#FFFFFF;
+    --azul:#61F2F5;
+    
+
+}
+
+/*reset de configurações css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body{
+    background: var(--roxo-escuro);
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--azul);
+    font-family: "Arial Black";
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--ciano-azul);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:var(--branco)
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/goblinlogo1.jpg");
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-bottom: 90px;
+}
+
+.titulo {
+    font-size: 90px;
+}
