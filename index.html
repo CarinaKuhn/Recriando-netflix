@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <title>DORAMAFLIX</title>
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css -->
+    <link rel="stylesheet" href="style/OWL/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/OWL/owl.theme.default.min.css">
+
+
+    <title>KDRAMAFLIX</title>
 </head>
+
 <body>
-    <header> 
+    <header>
         <div class="container">
-            <h2 class="logo">DORAMAFLIX</h2>
+            <div class="logotipo">
+                <img src="img/KDRAMAFLIX.png" alt="Dramaflix">
+            </div>
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentários</a>
-                
+
             </nav>
         </div>
     </header>
@@ -25,18 +38,164 @@
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">GOBLIN</h3>
-                <p class="descricao">Shin é um Goblin que também é um protetor de almas. Ele vive junto com um ceifador amnésico que está encarregado de levar as almas falecidas. Juntos, os dois enviam os mortos para a vida após a morte. Shin não quer mais ser imortal e busca uma noiva humana para acabar com sua imortalidade. Enquanto isso, Ji Eun Tak é uma estudante do ensino médio que, apesar de sua dolorosa realidade, permanece otimista e acaba se apaixonando pelo Goblin. Kim Sun é dona de uma loja de frangos, ela é uma garota brilhante e atraente que é amada por todos os homens. No entanto, ao encontrar dificuldades em sua vida, ela vai conhecer o ceifeiro e começar a mudar ...</p>
+                <p class="descricao">Shin é um Goblin que também é um protetor de almas. Ele vive junto com um ceifador
+                    amnésico que está encarregado de levar as almas falecidas. Juntos, os dois enviam os mortos para a
+                    vida após a morte. Shin não quer mais ser imortal e busca uma noiva humana para acabar com sua
+                    imortalidade. Enquanto isso, Ji Eun Tak é uma estudante do ensino médio que, apesar de sua dolorosa
+                    realidade, permanece otimista e acaba se apaixonando pelo Goblin. Kim Sun é dona de uma loja de
+                    frangos, ela é uma garota brilhante e atraente que é amada por todos os homens. No entanto, ao
+                    encontrar dificuldades em sua vida, ela vai conhecer o ceifeiro e começar a mudar ...</p>
                 <div class="botoes">
                     <button role="button" class="botao">
-                        ASSISTIR AGORA
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.viki.com/videos/1115053v" target="_blank">ASSISTIR AGORA</a>
+                        <!--ASSISTIR AGORA-->
                     </button>
                     <button role="button" class="botao">
-                        MAIS INFORMAÇÕES
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.viki.com/tv/31706c-guardian-the-lonely-and-great-god">MAIS INFORMAÇÕES</a>
+                        <!--MAIS INFORMAÇÕES-->
                     </button>
+
                 </div>
             </div>
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            
+            <div class="item" id="carrosel-item">
+                <img class="box-filme" src="img/1.jpg" alt="">
+                
+                <div class="botoes-carrosel" id="carrosel-buttons">
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://youtu.be/oWfxsT2K-2A" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.themoviedb.org/tv/129478?language=pt-BR">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+                
+            </div>
+
+            <div class="item" id="carrosel-item2">
+                <img class="box-filme" src="img/2.jpg" alt="">
+
+                <div class="botoes-carrosel" id="carrosel-buttons2">
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=7Sdq9d3aN3g" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.themoviedb.org/tv/85404?language=pt-BR">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="item" id="carrosel-item3">
+                <img class="box-filme" src="img/3.jpg" alt="">
+                <div class="botoes-carrosel" id="carrosel-buttons3">
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://youtu.be/Igy-A2dJ-A0" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.themoviedb.org/tv/96777-the-silent-sea?language=pt-BR">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="item" id="carrosel-item4">
+                <img class="box-filme" src="img/4.jpg" alt="">
+                <div class="botoes-carrosel" id="carrosel-buttons4">
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=wJV6DLQPShs" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.themoviedb.org/tv/129475?language=pt-BR">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="item" id="carrosel-item5">
+                <img class="box-filme" src="img/5.jpg" alt="">
+                <div class="botoes-carrosel" id="carrosel-buttons5">
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=vg9uCK8p_jM" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.themoviedb.org/tv/96462?language=pt-BR">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="item" id="carrosel-item6">
+                <img class="box-filme" src="img/6.jpg" alt="">
+                <div class="botoes-carrosel" id="carrosel-buttons6">
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=KK-56SxTm_c" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.themoviedb.org/tv/66330?language=pt-BR">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="item" id="carrosel-item7">
+                <img class="box-filme" src="img/7.jpg" alt="">
+                <div class="botoes-carrosel" id="carrosel-buttons7">
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=lJ3_1v8sB48" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.themoviedb.org/tv/90447?language=pt-BR">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="item" id="carrosel-item8">
+                <img class="box-filme" src="img/8.jpg" alt="">
+                <div class="botoes-carrosel" id="carrosel-buttons8">
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=rPJSo4fhtRU" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+
+                    <button role="button" class="botao-carrosel">
+                        <i class="fa-solid fa-circle-info"> </i>
+                        <a href="https://www.themoviedb.org/tv/75820?language=pt-BR">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/90aa16d1bd.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
+
 </html>
